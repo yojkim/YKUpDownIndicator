@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>YKUpDownIndicator.xcscheme</key>
+		<key>YKUpDownIndicator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>YKUpDownIndicatorExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>6009B21F1ECA03F4002B566B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>601F5B891ECFFA31007AED98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>601F5B9C1ECFFA31007AED98</key>
 		<dict>
 			<key>primary</key>
 			<true/>
