@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6009B2211ECA03F4002B566B /* YKUpDownIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6009B2171ECA03F4002B566B /* YKUpDownIndicator.framework */; };
-		6009B2261ECA03F4002B566B /* YKUpDownIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009B2251ECA03F4002B566B /* YKUpDownIndicatorTests.swift */; };
 		6009B2281ECA03F4002B566B /* YKUpDownIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6009B21A1ECA03F4002B566B /* YKUpDownIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6009B2321ECA0869002B566B /* YKUpDownIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009B2311ECA0869002B566B /* YKUpDownIndicator.swift */; };
 		601F5B8D1ECFFA31007AED98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601F5B8C1ECFFA31007AED98 /* AppDelegate.swift */; };
@@ -16,7 +14,6 @@
 		601F5B921ECFFA31007AED98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601F5B901ECFFA31007AED98 /* Main.storyboard */; };
 		601F5B941ECFFA31007AED98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601F5B931ECFFA31007AED98 /* Assets.xcassets */; };
 		601F5B971ECFFA31007AED98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601F5B951ECFFA31007AED98 /* LaunchScreen.storyboard */; };
-		601F5BA21ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601F5BA11ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.swift */; };
 		601F5BAA1ECFFA88007AED98 /* YKUpDownIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6009B2171ECA03F4002B566B /* YKUpDownIndicator.framework */; };
 		602E69F61ED4373400409F5A /* YKUpDownIndicator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6009B2171ECA03F4002B566B /* YKUpDownIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6083C6631ECB5F240079B778 /* YKCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6083C6621ECB5F240079B778 /* YKCircleLayer.swift */; };
@@ -26,20 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6009B2221ECA03F4002B566B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6009B20E1ECA03F4002B566B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6009B2161ECA03F4002B566B;
-			remoteInfo = YKUpDownIndicator;
-		};
-		601F5B9E1ECFFA31007AED98 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6009B20E1ECA03F4002B566B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 601F5B891ECFFA31007AED98;
-			remoteInfo = YKUpDownIndicatorExample;
-		};
 		602E69F71ED4373400409F5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6009B20E1ECA03F4002B566B /* Project object */;
@@ -67,9 +50,6 @@
 		6009B2171ECA03F4002B566B /* YKUpDownIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKUpDownIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6009B21A1ECA03F4002B566B /* YKUpDownIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKUpDownIndicator.h; sourceTree = "<group>"; };
 		6009B21B1ECA03F4002B566B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6009B2201ECA03F4002B566B /* YKUpDownIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKUpDownIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6009B2251ECA03F4002B566B /* YKUpDownIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKUpDownIndicatorTests.swift; sourceTree = "<group>"; };
-		6009B2271ECA03F4002B566B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6009B2311ECA0869002B566B /* YKUpDownIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKUpDownIndicator.swift; sourceTree = "<group>"; };
 		601F5B8A1ECFFA31007AED98 /* YKUpDownIndicatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKUpDownIndicatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		601F5B8C1ECFFA31007AED98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,12 +58,10 @@
 		601F5B931ECFFA31007AED98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601F5B961ECFFA31007AED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		601F5B981ECFFA31007AED98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		601F5B9D1ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKUpDownIndicatorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		601F5BA11ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKUpDownIndicatorExampleTests.swift; sourceTree = "<group>"; };
-		601F5BA31ECFFA31007AED98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6083C6621ECB5F240079B778 /* YKCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCircleLayer.swift; sourceTree = "<group>"; };
 		6083C6641ECB61700079B778 /* YKUpDownLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKUpDownLayer.swift; sourceTree = "<group>"; };
 		6083C66A1ECB63D00079B778 /* YKUpDownSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKUpDownSet.swift; sourceTree = "<group>"; };
+		60A956991F10AEDC0048AB03 /* YKUpDownIndicator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YKUpDownIndicator.podspec; sourceTree = "<group>"; };
 		60B79B7F1ED315AA004EC46E /* YKUpDownIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKUpDownIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,26 +73,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6009B21D1ECA03F4002B566B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6009B2211ECA03F4002B566B /* YKUpDownIndicator.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		601F5B871ECFFA31007AED98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				601F5BAA1ECFFA88007AED98 /* YKUpDownIndicator.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		601F5B9A1ECFFA31007AED98 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,10 +87,9 @@
 		6009B20D1ECA03F4002B566B = {
 			isa = PBXGroup;
 			children = (
+				60A956991F10AEDC0048AB03 /* YKUpDownIndicator.podspec */,
 				601F5B8B1ECFFA31007AED98 /* YKUpDownIndicatorExample */,
 				6009B2191ECA03F4002B566B /* YKUpDownIndicator */,
-				6009B2241ECA03F4002B566B /* YKUpDownIndicatorTests */,
-				601F5BA01ECFFA31007AED98 /* YKUpDownIndicatorExampleTests */,
 				6009B2181ECA03F4002B566B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6009B2171ECA03F4002B566B /* YKUpDownIndicator.framework */,
-				6009B2201ECA03F4002B566B /* YKUpDownIndicatorTests.xctest */,
 				601F5B8A1ECFFA31007AED98 /* YKUpDownIndicatorExample.app */,
-				601F5B9D1ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,15 +117,6 @@
 			path = YKUpDownIndicator;
 			sourceTree = "<group>";
 		};
-		6009B2241ECA03F4002B566B /* YKUpDownIndicatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				6009B2251ECA03F4002B566B /* YKUpDownIndicatorTests.swift */,
-				6009B2271ECA03F4002B566B /* Info.plist */,
-			);
-			path = YKUpDownIndicatorTests;
-			sourceTree = "<group>";
-		};
 		601F5B8B1ECFFA31007AED98 /* YKUpDownIndicatorExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,15 +128,6 @@
 				601F5B981ECFFA31007AED98 /* Info.plist */,
 			);
 			path = YKUpDownIndicatorExample;
-			sourceTree = "<group>";
-		};
-		601F5BA01ECFFA31007AED98 /* YKUpDownIndicatorExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				601F5BA11ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.swift */,
-				601F5BA31ECFFA31007AED98 /* Info.plist */,
-			);
-			path = YKUpDownIndicatorExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,24 +162,6 @@
 			productReference = 6009B2171ECA03F4002B566B /* YKUpDownIndicator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6009B21F1ECA03F4002B566B /* YKUpDownIndicatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6009B22E1ECA03F4002B566B /* Build configuration list for PBXNativeTarget "YKUpDownIndicatorTests" */;
-			buildPhases = (
-				6009B21C1ECA03F4002B566B /* Sources */,
-				6009B21D1ECA03F4002B566B /* Frameworks */,
-				6009B21E1ECA03F4002B566B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6009B2231ECA03F4002B566B /* PBXTargetDependency */,
-			);
-			name = YKUpDownIndicatorTests;
-			productName = YKUpDownIndicatorTests;
-			productReference = 6009B2201ECA03F4002B566B /* YKUpDownIndicatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		601F5B891ECFFA31007AED98 /* YKUpDownIndicatorExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 601F5BA81ECFFA31007AED98 /* Build configuration list for PBXNativeTarget "YKUpDownIndicatorExample" */;
@@ -257,24 +181,6 @@
 			productReference = 601F5B8A1ECFFA31007AED98 /* YKUpDownIndicatorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		601F5B9C1ECFFA31007AED98 /* YKUpDownIndicatorExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 601F5BA91ECFFA31007AED98 /* Build configuration list for PBXNativeTarget "YKUpDownIndicatorExampleTests" */;
-			buildPhases = (
-				601F5B991ECFFA31007AED98 /* Sources */,
-				601F5B9A1ECFFA31007AED98 /* Frameworks */,
-				601F5B9B1ECFFA31007AED98 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				601F5B9F1ECFFA31007AED98 /* PBXTargetDependency */,
-			);
-			name = YKUpDownIndicatorExampleTests;
-			productName = YKUpDownIndicatorExampleTests;
-			productReference = 601F5B9D1ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,21 +197,10 @@
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
-					6009B21F1ECA03F4002B566B = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9787PY98YF;
-						ProvisioningStyle = Automatic;
-					};
 					601F5B891ECFFA31007AED98 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9787PY98YF;
 						ProvisioningStyle = Automatic;
-					};
-					601F5B9C1ECFFA31007AED98 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9787PY98YF;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 601F5B891ECFFA31007AED98;
 					};
 				};
 			};
@@ -324,21 +219,12 @@
 			targets = (
 				601F5B891ECFFA31007AED98 /* YKUpDownIndicatorExample */,
 				6009B2161ECA03F4002B566B /* YKUpDownIndicator */,
-				6009B21F1ECA03F4002B566B /* YKUpDownIndicatorTests */,
-				601F5B9C1ECFFA31007AED98 /* YKUpDownIndicatorExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6009B2151ECA03F4002B566B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6009B21E1ECA03F4002B566B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,13 +238,6 @@
 				601F5B971ECFFA31007AED98 /* LaunchScreen.storyboard in Resources */,
 				601F5B941ECFFA31007AED98 /* Assets.xcassets in Resources */,
 				601F5B921ECFFA31007AED98 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		601F5B9B1ECFFA31007AED98 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,14 +256,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6009B21C1ECA03F4002B566B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6009B2261ECA03F4002B566B /* YKUpDownIndicatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		601F5B861ECFFA31007AED98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,27 +265,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		601F5B991ECFFA31007AED98 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				601F5BA21ECFFA31007AED98 /* YKUpDownIndicatorExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6009B2231ECA03F4002B566B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6009B2161ECA03F4002B566B /* YKUpDownIndicator */;
-			targetProxy = 6009B2221ECA03F4002B566B /* PBXContainerItemProxy */;
-		};
-		601F5B9F1ECFFA31007AED98 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 601F5B891ECFFA31007AED98 /* YKUpDownIndicatorExample */;
-			targetProxy = 601F5B9E1ECFFA31007AED98 /* PBXContainerItemProxy */;
-		};
 		602E69F81ED4373400409F5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6009B2161ECA03F4002B566B /* YKUpDownIndicator */;
@@ -484,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -532,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -584,32 +437,6 @@
 			};
 			name = Release;
 		};
-		6009B22F1ECA03F4002B566B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9787PY98YF;
-				INFOPLIST_FILE = YKUpDownIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yojkim.YKUpDownIndicatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		6009B2301ECA03F4002B566B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9787PY98YF;
-				INFOPLIST_FILE = YKUpDownIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yojkim.YKUpDownIndicatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		601F5BA41ECFFA31007AED98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -640,36 +467,6 @@
 			};
 			name = Release;
 		};
-		601F5BA61ECFFA31007AED98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9787PY98YF;
-				INFOPLIST_FILE = YKUpDownIndicatorExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yojkim.YKUpDownIndicatorExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKUpDownIndicatorExample.app/YKUpDownIndicatorExample";
-			};
-			name = Debug;
-		};
-		601F5BA71ECFFA31007AED98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9787PY98YF;
-				INFOPLIST_FILE = YKUpDownIndicatorExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yojkim.YKUpDownIndicatorExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKUpDownIndicatorExample.app/YKUpDownIndicatorExample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -691,29 +488,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6009B22E1ECA03F4002B566B /* Build configuration list for PBXNativeTarget "YKUpDownIndicatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6009B22F1ECA03F4002B566B /* Debug */,
-				6009B2301ECA03F4002B566B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		601F5BA81ECFFA31007AED98 /* Build configuration list for PBXNativeTarget "YKUpDownIndicatorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				601F5BA41ECFFA31007AED98 /* Debug */,
 				601F5BA51ECFFA31007AED98 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		601F5BA91ECFFA31007AED98 /* Build configuration list for PBXNativeTarget "YKUpDownIndicatorExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				601F5BA61ECFFA31007AED98 /* Debug */,
-				601F5BA71ECFFA31007AED98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
