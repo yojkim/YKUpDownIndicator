@@ -42,7 +42,7 @@ upDownIndicator.animate()
 upDownIndicator.stop()
 ```
 
-## LISENCE
+## LICENSE
 
 YKUpDownIndicator is available under the MIT license. See the LICENSE file for more info.
 
