@@ -48,7 +48,7 @@ YKUpDownIndicator is available under the MIT license. See the LICENSE file for m
 
 ## Author 
 
-Yong Jae Kim [yojkim](http://github.com/yojkim)
+Yong Jae Kim - [yojkim](http://github.com/yojkim)
 
 
 
