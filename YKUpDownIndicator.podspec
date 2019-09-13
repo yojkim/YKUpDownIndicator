@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/yojkim/YKUpDownIndicator.git", :tag => s.version.to_s }
   s.source_files  = "YKUpDownIndicator/**/*"
-  spec.swift_version = '5.0'
+  s.swift_version = '5.0'
 end
