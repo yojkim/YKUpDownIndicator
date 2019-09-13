@@ -1,6 +1,6 @@
 # YKUpDownIndicator 
 
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![License](https://img.shields.io/cocoapods/l/Cosmos.svg?style=flat)](LICENSE)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -11,8 +11,7 @@
 ## Requirements
 
 * iOS 8.0 +
-* Swift 3.0 +
-* Xcode 8.0 +
+* Swift 5.0 +
 
 ## Installation
 
@@ -48,7 +47,7 @@ YKUpDownIndicator is available under the MIT license. See the LICENSE file for m
 
 ## Author 
 
-Yong Jae Kim - [yojkim](http://github.com/yojkim)
+[yojkim](http://github.com/yojkim)
 
 
 
