@@ -6,7 +6,7 @@
 //  Copyright © 2017년 yojkim. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public class YKUpDownIndicator: UIView {
     
@@ -15,29 +15,35 @@ public class YKUpDownIndicator: UIView {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        commonInit()
+        initialize()
     }
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        commonInit()
+        initialize()
     }
     
-    private func commonInit() {
+    private func initialize() {
         
-        indicatorView = YKUpDownIndicatorView(frame: CGRect(x: abs(frame.origin.x - center.x) - 20,
-                                                            y: abs(frame.origin.y - center.y) - 15,
-                                                            width: 40,
-                                                            height: 30))
-        addSubview(indicatorView)
+        self.indicatorView = YKUpDownIndicatorView(
+            frame: CGRect(
+                x: abs(frame.origin.x - center.x) - 20,
+                y: abs(frame.origin.y - center.y) - 15,
+                width: 40,
+                height: 30
+            )
+        )
+        
+        self.addSubview(self.indicatorView)
         
     }
     
     public func animate() {
-        indicatorView.animate()
+        self.indicatorView.animate()
     }
     
     public func stop() {
-        indicatorView.stop()
+        self.indicatorView.stop()
     }
+    
 }

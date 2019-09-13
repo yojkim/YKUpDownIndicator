@@ -6,7 +6,7 @@
 //  Copyright © 2017년 yojkim. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 typealias YKSet = YKUpDownSet
 
@@ -44,14 +44,26 @@ internal enum YKUpDownSet {
         animation.repeatCount = .infinity
         
         switch self {
+        case .Top: animation.values = [
+            YKSet.Top.positionColor,
+            YKSet.Bottom.positionColor,
+            YKSet.Middle.positionColor,
+            YKSet.Top.positionColor
+            ]
             
-        case .Top: animation.values =
-            [YKSet.Top.positionColor, YKSet.Bottom.positionColor, YKSet.Middle.positionColor, YKSet.Top.positionColor]
-        case .Middle: animation.values =
-            [YKSet.Middle.positionColor, YKSet.Top.positionColor, YKSet.Bottom.positionColor, YKSet.Middle.positionColor]
-        case .Bottom: animation.values =
-            [YKSet.Bottom.positionColor, YKSet.Middle.positionColor, YKSet.Top.positionColor, YKSet.Bottom.positionColor]
-        
+        case .Middle: animation.values = [
+            YKSet.Middle.positionColor,
+            YKSet.Top.positionColor,
+            YKSet.Bottom.positionColor,
+            YKSet.Middle.positionColor
+            ]
+            
+        case .Bottom: animation.values = [
+            YKSet.Bottom.positionColor,
+            YKSet.Middle.positionColor,
+            YKSet.Top.positionColor,
+            YKSet.Bottom.positionColor
+            ]
         }
         
         return animation
@@ -69,29 +81,23 @@ internal enum YKUpDownSet {
     }
     
     var frame: CGRect {
-        
         switch self {
-            
         case .Top: return CGRect(x: 0, y: 0, width: 10, height: 10)
         case .Middle: return CGRect(x: 0, y: 0, width: 10, height: 10)
         case .Bottom: return CGRect(x: 0, y: 0, width: 10, height: 10)
-            
         }
     }
 }
 
 internal extension UIColor {
+    
     func changeAlpha(_ alpha: CGFloat) -> UIColor {
-        return UIColor(red: self.ciColor.red, green: self.ciColor.green, blue: self.ciColor.blue, alpha: alpha)
+        return UIColor(
+            red: self.ciColor.red,
+            green: self.ciColor.green,
+            blue: self.ciColor.blue,
+            alpha: alpha
+        )
     }
+    
 }
-
-
-
-
-
-
-
-
-
-

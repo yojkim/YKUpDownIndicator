@@ -6,34 +6,30 @@
 //  Copyright © 2017년 yojkim. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class YKCircleLayer: CALayer {
     
     var circle = CALayer()
     var color = UIColor.clear.cgColor
     
-    override init() {
-        super.init()
-        commonInit()
-    }
-    
-    init(frame: CGRect) {
+    init(frame: CGRect = .zero) {
         super.init()
         self.frame = frame
-        commonInit()
+        initialize()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        commonInit()
+        initialize()
     }
     
-    private func commonInit() {
-        circle.frame = bounds
-        circle.cornerRadius = bounds.width / 2
-        circle.masksToBounds = true
-        circle.backgroundColor = color
-        addSublayer(circle)
+    private func initialize() {
+        self.circle.frame = bounds
+        self.circle.cornerRadius = bounds.width / 2
+        self.circle.masksToBounds = true
+        self.circle.backgroundColor = color
+        addSublayer(self.circle)
     }
+    
 }

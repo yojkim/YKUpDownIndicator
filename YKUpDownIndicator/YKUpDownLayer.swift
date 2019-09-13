@@ -6,7 +6,7 @@
 //  Copyright © 2017년 yojkim. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class YKUpDownLayer: CALayer {
     
@@ -22,7 +22,7 @@ class YKUpDownLayer: CALayer {
     init(frame: CGRect) {
         super.init()
         self.frame = frame
-        commonInit()
+        initialize()
     }
     
     // Initialize with frame and startPosition
@@ -30,15 +30,15 @@ class YKUpDownLayer: CALayer {
         super.init()
         self.frame = frame
         self.startPosition = startPosition
-        commonInit()
+        initialize()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        commonInit()
+        initialize()
     }
     
-    private func commonInit() {
+    private func initialize() {
         circleView = YKCircleLayer(frame: self.startPosition.frame)
         addSublayer(circleView)
     }

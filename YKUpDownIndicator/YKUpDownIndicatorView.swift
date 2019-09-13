@@ -6,7 +6,7 @@
 //  Copyright © 2017년 yojkim. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public class YKUpDownIndicatorView: UIView {
     
@@ -16,45 +16,56 @@ public class YKUpDownIndicatorView: UIView {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        commonInit()
+        initialize()
     }
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        commonInit()
+        initialize()
     }
     
     public override func awakeFromNib() {
         super.awakeFromNib()
     }
     
-    private func commonInit() {
-        upDownLayer1 = YKUpDownLayer(frame: CGRect(x: 0, y: 0, width: 10, height: 30), startPosition: .Top)
-        upDownLayer2 = YKUpDownLayer(frame: CGRect(x: 15, y: 0, width: 10, height: 30), startPosition: .Middle)
-        upDownLayer3 = YKUpDownLayer(frame: CGRect(x: 30, y: 0, width: 10, height: 30), startPosition: .Bottom)
+    private func initialize() {
+        upDownLayer1 = YKUpDownLayer(
+            frame: CGRect(x: 0, y: 0, width: 10, height: 30),
+            startPosition: .Top
+        )
         
-        layer.addSublayer(upDownLayer1)
-        layer.addSublayer(upDownLayer2)
-        layer.addSublayer(upDownLayer3)
+        upDownLayer2 = YKUpDownLayer(
+            frame: CGRect(x: 15, y: 0, width: 10, height: 30),
+            startPosition: .Middle
+        )
         
-        isHidden = true
+        upDownLayer3 = YKUpDownLayer(
+            frame: CGRect(x: 30, y: 0, width: 10, height: 30),
+            startPosition: .Bottom
+        )
+        
+        self.layer.addSublayer(upDownLayer1)
+        self.layer.addSublayer(upDownLayer2)
+        self.layer.addSublayer(upDownLayer3)
+        
+        self.isHidden = true
         
     }
     
     internal func animate() {
-        upDownLayer1.animate()
-        upDownLayer2.animate()
-        upDownLayer3.animate()
+        self.upDownLayer1.animate()
+        self.upDownLayer2.animate()
+        self.upDownLayer3.animate()
         
-        isHidden = false
+        self.isHidden = false
     }
     
     internal func stop() {
-        upDownLayer1.stop()
-        upDownLayer2.stop()
-        upDownLayer3.stop()
+        self.upDownLayer1.stop()
+        self.upDownLayer2.stop()
+        self.upDownLayer3.stop()
         
-        isHidden = true
+        self.isHidden = true
     }
 
 }
